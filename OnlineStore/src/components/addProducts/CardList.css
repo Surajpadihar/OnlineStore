@@ -1,0 +1,68 @@
+.card-list-body {
+    border: 2px solid rgb(85, 5, 5);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+  }
+  .card-list-img {
+    width: 3rem;
+    margin-top: -5rem;
+  }
+  .card-list-add-minu-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-list-add-minu-body p {
+    margin: 0;
+  }
+  .plus-items-minu {
+    display: flex;
+  }
+  .plus-btn,
+  .minu-btn,
+  .num-of-items {
+    background-color: white;
+    border: 1px solid white;
+    background-color: rgb(108, 108, 231);
+    color: white;
+    min-width: 30px;
+    min-height: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 0.3rem 0.5rem;
+    transition: 0.2s;
+  }
+  .plus-btn,
+  .minu-btn {
+    cursor: pointer;
+  }
+  .plus-btn {
+    border-radius: 0.3rem 0 0 0.3rem;
+  }
+  .plus-btn:hover {
+    background-color: rgb(173, 173, 243);
+  }
+  .minu-btn {
+    border-radius: 0 0.3rem 0.3rem 0;
+  }
+  .minu-btn:hover {
+    background-color: rgb(173, 173, 243);
+  }
+  .delete-btn {
+    padding: 2px 5px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: red;
+    border: 1px solid black;
+    color: black;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .delete-btn:hover {
+    color: black;
+    background-color: rgb(238, 84, 84);
+  }
